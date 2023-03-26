@@ -1,0 +1,90 @@
+.login-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .login-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  input[type='email'],
+  input[type='password'] {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  button[type='submit'] {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type='submit']:hover:not([disabled]) {
+    background-color: #0069d9;
+  }
+  
+  button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+
+  .mat-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .mat-header-row {
+    background-color: #f5f5f5;
+  }
+  
+  .mat-row:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  
+  .mat-cell,
+  .mat-header-cell {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .mat-cell {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .mat-header-cell {
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+  }
+  
